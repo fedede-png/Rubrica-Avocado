@@ -44,7 +44,7 @@
             </Button>
          </center>
          <left>
-            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="315.0" text="Aggiungi" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="315.0" text="Aggiungi" onAction="#aggMet"  fx:id="aggBot" BorderPane.alignment="CENTER">
                <BorderPane.margin>
                   <Insets left="10.0" />
                </BorderPane.margin>
